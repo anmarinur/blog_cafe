@@ -27,6 +27,7 @@ body {
 .contenedor {
   max-width: 120rem;
   width: 90%;
+  width: min(90%, 120rem);  /* Lo mismo de arriba pero en menos líneas */
   margin: 0 auto;
 }
 
@@ -105,6 +106,10 @@ img {
     .header__texto-texto {
       margin-top: 12rem;
     }
+}
+
+.barra {
+  padding-top: 4rem;
 }
 
 .logo {
@@ -192,4 +197,10 @@ img {
 
 .widget-curso__info {
   font-weight: 400;
+}
+
+.footer {
+  background-color: var(--negro);
+  padding-bottom: 3rem;
+  margin-top: 4rem;
 }
